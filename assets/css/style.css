@@ -286,18 +286,25 @@ p {
   height: auto;
   display: block;
 }
-/* Hero video on About page */
+/* Hero video card (About + Contact) */
 .hero__video {
-  max-width: 480px;
+  max-width: 460px;
+  aspect-ratio: 16 / 9;      /* keeps it short, like a wide card */
   border-radius: 24px;
   overflow: hidden;
   box-shadow: var(--shadow-soft);
 }
 
+/* Fallback for older browsers – keeps it from becoming too tall */
+.hero__video {
+  max-height: 260px;
+}
+
 .hero__video video {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  object-fit: cover;         /* fills the card, crops neatly */
 }
 
 /* Cards / grids */
