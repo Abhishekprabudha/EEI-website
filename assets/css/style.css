@@ -286,6 +286,19 @@ p {
   height: auto;
   display: block;
 }
+/* Hero video on About page */
+.hero__video {
+  max-width: 480px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.hero__video video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* Cards / grids */
 .grid-3 {
