@@ -281,6 +281,11 @@ p {
   background-color: #FDF3EC;
   color: #C24A15;
 }
+.hero__visual img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* Cards / grids */
 .grid-3 {
