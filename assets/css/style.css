@@ -319,6 +319,37 @@ p {
   font-size: 1rem;
   margin-bottom: 0.4rem;
 }
+/* Founders on About page */
+.founder-header {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  margin-bottom: 0.85rem;
+}
+
+.founder-avatar {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #E0E7F3;
+  flex-shrink: 0;
+}
+
+.founder-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Slightly smaller on small screens */
+@media (max-width: 600px) {
+  .founder-avatar {
+    width: 95px;
+    height: 95px;
+  }
+}
+
 
 /* Lists */
 .bullet-list {
