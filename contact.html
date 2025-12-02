@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact EEI Services – Talk to Our Team</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact EEI Services for enterprise logistics, franchise, EV attachment and investment opportunities.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-header__logo">
+        <img src="assets/img/logo-eei-blue.png" alt="EEI Services logo">
+        <div class="site-header__brand-text">
+          EEI Services Pvt. Ltd.<br>
+          <span style="font-size:0.8rem; color:#6B778C;">Evolve Manpower • Lium Go • SureShift</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="franchisee.html">Franchisee</a>
+        <a href="investors.html">Investors</a>
+        <a href="brands.html">Brands</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div>
+        <div class="hero__kicker">Contact</div>
+        <h1 class="hero__title">Talk to the EEI team.</h1>
+        <p class="hero__subtitle">
+          Whether you are an enterprise, franchisee, vehicle owner or investor, use this form to share your
+          requirements. The team will revert with a structured response.
+        </p>
+
+        <div class="hero__pills">
+          <span class="hero__pill">Enterprise logistics</span>
+          <span class="hero__pill">Franchise &amp; EV attachment</span>
+          <span class="hero__pill">Investments &amp; partnerships</span>
+        </div>
+
+        <div class="hero__actions">
+          <a href="#contact-form" class="btn btn-primary">
+            Fill the contact form
+          </a>
+          <a href="https://wa.me/918630224142" class="btn btn-secondary" target="_blank" rel="noopener">
+            Chat on WhatsApp
+          </a>
+        </div>
+
+        <div class="hero__meta">
+          Response time: typically within 1–2 working days for detailed queries.
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__card">
+          <div class="hero__card-title">Contact details</div>
+          <ul class="bullet-list">
+            <li><strong>Phone:</strong> +91 86302 24142</li>
+            <li><strong>Email:</strong> info@eeiservices.in</li>
+            <li><strong>Address:</strong> A-24/9, Mohan Co-operative Industrial Estate, Mathura Road, Badarpur, New Delhi – 110044</li>
+          </ul>
+          <p style="font-size:0.85rem; color:#6B778C;">
+            For urgent operational issues, please use your dedicated EEI relationship manager contact in addition
+            to this form.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact form -->
+  <section class="section section--light" id="contact-form">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__kicker">Form</div>
+        <h2>Share your requirements</h2>
+        <p>Provide a few details so the right team (enterprise, franchise, EV, investments) can respond.</p>
+      </div>
+
+      <div class="callout-row">
+        <!-- Form column -->
+        <div class="card">
+          <div class="card__kicker">Your details</div>
+          <h3 class="card__title">Contact form</h3>
+
+          <!-- NOTE: action is placeholder; backend can be wired later -->
+          <form id="eeiContactForm" action="mailto:info@eeiservices.in" method="post" enctype="text/plain">
+            <label style="display:block; font-size:0.85rem; margin-top:0.5rem;">
+              Full name
+              <input type="text" name="name" required
+                     style="width:100%; margin-top:0.25rem; padding:0.5rem; border-radius:8px; border:1px solid #D0D7E2;">
+            </label>
+
+            <label style="display:block; font-size:0.85rem; margin-top:0.7rem;">
+              Company (optional)
+              <input type="text" name="company"
+                     style="width:100%; margin-top:0.25rem; padding:0.5rem; border-radius:8px; border:1px solid #D0D7E2;">
+            </label>
+
+            <label style="display:block; font-size:0.85rem; margin-top:0.7rem;">
+              Email
+              <input type="email" name="email" required
+                     style="width:100%; margin-top:0.25rem; padding:0.5rem; border-radius:8px; border:1px solid #D0D7E2;">
+            </label>
+
+            <label style="display:block; font-size:0.85rem; margin-top:0.7rem;">
+              Phone / WhatsApp number
+              <input type="tel" name="phone" required
+                     style="width:100%; margin-top:0.25rem; padding:0.5rem; border-radius:8px; border:1px solid #D0D7E2;">
+            </label>
+
+            <label style="display:block; font-size:0.85rem; margin-top:0.7rem;">
+              I am primarily contacting you as a
+              <select name="type"
+                      style="width:100%; margin-top:0.25rem; padding:0.5rem; border-radius:8px; border:1px solid #D0D7E2;">
+                <option value="enterprise">Enterprise / brand</option>
+                <option value="franchisee">Franchise / hub partner</option>
+                <option value="vehicle-owner">Vehicle owner (EV attachment)</option>
+                <option value="investor">Investor / family office</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+
+            <label style="display:block; font-size:0.85rem; margin-top:0.7rem;">
+              City / location
+              <input type="text" name="city"
+                     style="width:100%; margin-top:0.25rem; padding:0.5rem; border-radius:8px; border:1px solid #D0D7E2;">
+            </label>
+
+            <label style="display:block; font-size:0.85rem; margin-top:0.7rem;">
+              Briefly describe what you are looking for
+              <textarea name="message" rows="5" required
+                        style="width:100%; margin-top:0.25rem; padding:0.5rem; border-radius:8px; border:1px solid #D0D7E2; resize:vertical;"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary" style="width:100%; margin-top:1rem;">
+              Submit
+            </button>
+
+            <p style="margin-top:0.6rem; font-size:0.75rem; color:#6B778C;">
+              By submitting, you agree to be contacted by EEI Services or its representatives with respect to your query.
+            </p>
+          </form>
+        </div>
+
+        <!-- Info column -->
+        <div class="card">
+          <div class="card__kicker">Guidance</div>
+          <h3 class="card__title">What to include</h3>
+          <ul class="bullet-list">
+            <li>For enterprises: sector, cities, expected volumes and current pain points.</li>
+            <li>For franchise / EV attachment: approximate capital, preferred city and timeline.</li>
+            <li>For investors: indicative ticket size, horizon and areas of interest (fleets, hubs, infra).</li>
+            <li>Any constraints or non-negotiables you already know (timelines, compliance, etc.).</li>
+          </ul>
+          <p style="font-size:0.85rem; color:#6B778C; margin-top:0.5rem;">
+            This helps the team route your message to the right vertical and come back with more specific information
+            instead of generic responses.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__top">
+        <div>
+          <h4>EEI Services Private Limited</h4>
+          <p>
+            A-24/9, Mohan Co-operative Industrial Estate,<br>
+            Mathura Road, Badarpur,<br>
+            New Delhi &ndash; 110044
+          </p>
+          <p>
+            Phone: <a href="tel:+918630224142">+91 86302 24142</a><br>
+            Email: <a href="mailto:info@eeiservices.in">info@eeiservices.in</a>
+          </p>
+        </div>
+        <div>
+          <h4>Quick links</h4>
+          <p>
+            <a href="index.html">Home</a><br>
+            <a href="franchisee.html">Franchise opportunities</a><br>
+            <a href="investors.html">Invest with EEI</a><br>
+            <a href="brands.html">Our brands</a><br>
+            <a href="about.html">About EEI</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        &copy; <span id="year"></span> EEI Services Private Limited. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
