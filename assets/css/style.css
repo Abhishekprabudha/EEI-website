@@ -212,8 +212,13 @@ p {
 }
 
 .hero__title {
-  font-size: clamp(2rem, 3vw + 1rem, 2.8rem);
-  margin-bottom: 0.75rem;
+  font-size: clamp(2.1rem, 3vw + 1rem, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  color: #0F2745;
+  margin-bottom: 0.85rem;
+  text-wrap: balance;
 }
 
 .hero__subtitle {
